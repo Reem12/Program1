@@ -46,18 +46,7 @@ if(current==null)
 }
 }
 }
-
-public  void prt(Node node) {
-    if(node==null){
-    }
-    else{
-    System.out.print(" ");
-    prt(node.left());
-    prt(node.right());
-    System.out.println(node.num() + " ");
-    }                 
-                
-}
+             
 //In order
      public void inOrder(Node myNode){
      if(myNode!= null){
